@@ -36,3 +36,8 @@ Add `--update-baseline` to overwrite the baseline with the latest scan. Run the 
 - It scans with TCP connect scans on a limited port range (`--ports`), so it does not replace a full vulnerability scanner.
 - The default target is localhost on the runner, which demonstrates the pipeline but is not a real network. Point `targets.txt` at systems you are authorized to scan.
 - Scheduled workflows on public repos are paused by GitHub after 60 days without repository activity.
+
+## Demo run
+A manual run with a temporary listener on port 8099 was detected as a new open port, and the workflow opened an issue automatically.
+
+![Demo issue](docs/images/demo-issue.png)
