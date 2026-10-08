@@ -1,0 +1,2 @@
+# One target per line. Only scan systems you own or have written permission to scan.
+127.0.0.1
